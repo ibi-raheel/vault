@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420"><rect width="100%" height="100%" rx="18" fill="#0b0c10"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c8f560"/></marker><style>.b{fill:#12141a;stroke:#23262f;stroke-width:2}.bd{fill:#12141a;stroke:#23262f;stroke-width:2;stroke-dasharray:7 6}.t{font-family:Inter Tight,system-ui,sans-serif;fill:#ecedf1;font-size:22px;text-anchor:middle}.s{font-family:JetBrains Mono,ui-monospace,monospace;fill:#a3a9b6;font-size:14px;text-anchor:middle}.h{font-family:JetBrains Mono,ui-monospace,monospace;fill:#c8f560;font-size:13px;text-anchor:middle;letter-spacing:1.5px}.l{stroke:#c8f560;stroke-width:2;fill:none;marker-end:url(#a)}.d{stroke:#7aa2ff;stroke-width:2;fill:none;stroke-dasharray:8 6;marker-end:url(#a)}</style></defs>
+
+<text class="h" x="112" y="38">CAPTURE</text>
+<rect class="b" x="15" y="52" width="195" height="62" rx="12"/><text class="t" x="112" y="78">Claude Code</text><text class="s" x="112" y="102">session jsonl</text>
+<rect class="b" x="15" y="132" width="195" height="62" rx="12"/><text class="t" x="112" y="158">Exports</text><text class="s" x="112" y="182">ChatGPT · Claude</text>
+<rect class="b" x="15" y="212" width="195" height="62" rx="12"/><text class="t" x="112" y="238">Markdown</text><text class="s" x="112" y="262">transcripts, saves</text>
+<path class="l" d="M210 83 L248 128"/><path class="l" d="M210 163 L248 163"/><path class="l" d="M210 243 L248 198"/>
+
+<text class="h" x="362" y="38">LIBRARIAN</text>
+<rect class="b" x="255" y="52" width="215" height="222" rx="12"/>
+<text class="t" x="362" y="86">Librarian</text>
+<text class="s" x="362" y="128">scrub secrets</text>
+<text class="s" x="362" y="160">extract to a fixed schema</text>
+<text class="s" x="362" y="192">resolve entities</text>
+<text class="s" x="362" y="224">supersede stale facts</text>
+<text class="s" x="362" y="256">write, never overwrite</text>
+<path class="l" d="M470 120 L513 105"/><path class="l" d="M470 210 L513 228"/>
+
+<text class="h" x="612" y="38">STORE</text>
+<rect class="b" x="515" y="72" width="195" height="72" rx="12"/><text class="t" x="612" y="103">SQLite + FTS5</text><text class="s" x="612" y="127">facts · episodes</text>
+<rect class="b" x="515" y="192" width="195" height="72" rx="12"/><text class="t" x="612" y="223">memory/ mirror</text><text class="s" x="612" y="247">markdown, in project</text>
+<path class="l" d="M710 108 L753 130"/>
+
+<text class="h" x="852" y="38">RETRIEVE</text>
+<rect class="b" x="755" y="52" width="195" height="222" rx="12"/>
+<text class="t" x="852" y="86">Retriever</text>
+<text class="s" x="852" y="128">gate: needed at all?</text>
+<text class="s" x="852" y="160">scope: hard filter</text>
+<text class="s" x="852" y="192">pack: token budget</text>
+<text class="s" x="852" y="224">log: what was sent</text>
+<text class="s" x="852" y="256">94 tokens, not 380</text>
+<path class="l" d="M950 100 L988 83"/><path class="l" d="M950 163 L988 163"/><path class="l" d="M950 226 L988 243"/>
+
+<text class="h" x="1092" y="38">INJECT</text>
+<rect class="b" x="990" y="52" width="195" height="62" rx="12"/><text class="t" x="1092" y="78">CLI</text><text class="s" x="1092" y="102">vault ask</text>
+<rect class="b" x="990" y="132" width="195" height="62" rx="12"/><text class="t" x="1092" y="158">MCP</text><text class="s" x="1092" y="182">stdio + HTTP</text>
+<rect class="b" x="990" y="212" width="195" height="62" rx="12"/><text class="t" x="1092" y="238">Web app</text><text class="s" x="1092" y="262">ingest · ask · audit</text>
+<path class="d" d="M1092 194 L1092 210" />
+
+<rect class="bd" x="255" y="316" width="695" height="64" rx="12"/>
+<text class="t" x="602" y="345">Hosted: GalaxyGate box · RunPod serverless GPU</text>
+<text class="s" x="602" y="368">Qwen2.5-7B on vLLM, min 0 workers — scales to zero between demos</text>
+<path class="d" d="M362 274 L362 314"/><path class="d" d="M852 274 L852 314"/>
+</svg>
